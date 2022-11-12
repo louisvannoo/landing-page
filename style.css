@@ -108,9 +108,9 @@ html{
 .tiles{
     display: flex;
     justify-content: space-around;
-    width: 1100px;
     max-width: 1100px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .carre{
@@ -123,4 +123,5 @@ html{
 
 .tile{
     text-align: center;
+    margin: 0 40px 10px 40px;
 }
